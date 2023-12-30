@@ -69,3 +69,14 @@ img.portrait {
     margin-top: -20em;
     margin-right: 10em;
 }
+
+footer{
+    margin-top: 40em;
+    width: 100%;
+
+}
+
+footer p {
+    text-align: center;
+    width: 100%;
+}
