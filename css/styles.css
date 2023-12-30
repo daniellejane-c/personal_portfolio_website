@@ -70,12 +70,13 @@ img.portrait {
     margin-right: 10em;
 }
 button {
-    font-size: x-large;
+    font-size: 3em;
     font-weight: bolder;
     background-color: darkgrey;
     border: 0;
     margin-top: 1em;
     margin-bottom: 1em;
+    display: block;
 }
 
 div.contact_info {
