@@ -1,0 +1,34 @@
+/*Begin mobile.*/
+@media screen and (max-width: 640px) {
+
+    body {
+        background-image: linear-gradient(lightgray, lightgrey, lightblue, lightblue, lightpink, lightpink);
+    }
+
+    header img {
+        width: 450px;
+        max-height: 30pxcm;
+        
+    }
+    img.portrait {
+        width: 300px;
+    }
+
+    nav ul li {
+        border-radius: 1em;
+        list-style: none;
+    }
+    footer {
+        text-align: center;
+    }
+
+    .tablet {
+        display: none; /*tablet class disappears on mobile format*/
+    }
+
+    .desktop {
+        display: none;
+    }
+
+}
+/*End mobile.*/

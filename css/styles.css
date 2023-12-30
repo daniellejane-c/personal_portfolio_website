@@ -1,3 +1,5 @@
+/*Begin desktop.*/
+@media screen and (min-width: 961px) {
 body {
     background-image: linear-gradient(lightgray, lightgrey, lightblue, lightblue, lightpink, lightpink);
 }
@@ -104,3 +106,7 @@ footer p {
     width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    .about-me-container {
+      flex-direction: column;
+    }
